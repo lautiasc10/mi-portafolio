@@ -5,7 +5,7 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 const AboutMe = () => {
   return (
-    <section className='text-white py-48' id='inicio'>
+    <section className='text-white py-50' id='inicio'>
       <header className='flex justify-center gap-x-4 '>
         <div>
           <h1 className='text-4xl font-bold mb-6'>
