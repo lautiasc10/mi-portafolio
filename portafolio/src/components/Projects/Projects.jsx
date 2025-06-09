@@ -30,7 +30,7 @@ const Projects = () => {
     ];
 
     return (
-        <section className=" text-white px-4 py-12" id='proyectos'>
+        <section className=" text-white px-12 py-16 md:py-2 md:px-8" id='proyectos'>
             <header className=" mb-12">
                 <h2 className="text-3xl  font-semibold ">
                     Proyectos
@@ -46,13 +46,13 @@ const Projects = () => {
                             <p className="text-gray-200">{p.description}</p>
                         </header>
                         <img src={p.img} alt={p.name} className="mt-4 rounded-lg shadow-lg max-h-60 object-cover" />
-                        <footer className='flex justify-between items-center w-[484px] mt-4'>
-                            <div className='max-w-[202px]'>
+                        <footer className='flex flex-col  items-center mt-4 md:w-[484px] md:flex-row md:justify-between'>
+                            <div className='md:max-w-[202px]'>
                             <span className='flex flex-wrap gap-x-2'>{p.languages}</span>
                             </div>
-                            <div className='flex gap-x-2'>
+                            <div className='flex gap-x-2 mt-4 md:mt-0'>
                                 <a
-                                    className='text-xs flex items-center gap-2 border border-gray-400 rounded-2xl px-4 py-1 font-medium bg-[#6d1010b4] hover:bg-red-950'
+                                    className='text-xs flex items-center gap-2 border border-gray-400 rounded-2xl px-2 py-1 font-medium bg-[#6d1010b4] hover:bg-red-950 md:px-4'
                                     href="https://github.com/lautiasc10/MiHogar" target="_blank" rel="noopener noreferrer">
                                     <FaGithub size={16} />
                                     Ver GitHub

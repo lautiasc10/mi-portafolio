@@ -24,7 +24,7 @@ const Certificates = () => {
         }
     ]
   return (
-    <section className='text-white py-12' id='certificados'>
+    <section className='text-white px-12 md:py-12 md:px-8' id='certificados'>
       <header className='mb-8'>
         <h2 className='text-3xl font-semibold'>Certificados</h2>
       </header>

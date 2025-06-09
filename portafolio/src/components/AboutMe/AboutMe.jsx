@@ -5,13 +5,13 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 const AboutMe = () => {
   return (
-    <section className='text-white py-50' id='inicio'>
-      <header className='flex justify-center gap-x-4 '>
+    <section className='text-white px-12 md:py-50 md:px-8' id='inicio'>
+      <header className='flex justify-center gap-x-4 mt-40 md:mt-0'>
         <div>
           <h1 className='text-4xl font-bold mb-6'>
             Lautaro Gonzalez
           </h1>
-          <p className='text-white text-lg font-medium  '>Estudiante avanzado de la Tecnicatura en Programación en UTN Rosario.
+          <p className='text-white text-lg font-medium '>Estudiante avanzado de la Tecnicatura en Programación en UTN Rosario.
             Me especializo en desarrollo web tanto Front-End como Back-End.
             Me apasiona seguir aprendiendo, enfrentar nuevos desafíos y participar en proyectos que me permitan crecer profesionalmente.
             Estoy abierto a nuevas oportunidades donde pueda aportar mis habilidades y continuar desarrollándome en el mundo IT.</p>
@@ -30,7 +30,7 @@ const AboutMe = () => {
             </a>
           </div>
         </div>
-        <img src={imagenPerfil} alt="" className='w-56 rounded-full' />
+        <img src={imagenPerfil} alt="" className=' hidden lg:flex md:w-56 md:rounded-full' />
       </header>
 
     </section>
