@@ -1,19 +1,18 @@
 import React from 'react';
-import imagenPerfil from '../../image/imagen-portafolio.jpg'
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 
 const AboutMe = () => {
   return (
-    <section className='text-white px-12 md:py-50 md:px-8' id='inicio'>
+    <section className='text-white px-12 md:mt-50 md:mb-20 md:px-8' id='inicio'>
       <header className='flex justify-center gap-x-4 mt-40 md:mt-0'>
         <div>
           <h1 className='text-4xl font-bold mb-6'>
             Lautaro Gonzalez
           </h1>
           <p className='text-white text-lg font-medium '>Estudiante avanzado de la Tecnicatura en Programación en UTN Rosario.
-            Me especializo en desarrollo web tanto Front-End como Back-End.
-            Me apasiona seguir aprendiendo, enfrentar nuevos desafíos y participar en proyectos que me permitan crecer profesionalmente.
+            Me especializo en el desarrollo de páginas web.
+            Me gusta aprender, enfrentar nuevos desafíos y participar en proyectos que me permitan crecer profesionalmente.
             Estoy abierto a nuevas oportunidades donde pueda aportar mis habilidades y continuar desarrollándome en el mundo IT.</p>
           <div className='flex gap-x-4 py-4'>
             <a 
@@ -30,7 +29,6 @@ const AboutMe = () => {
             </a>
           </div>
         </div>
-        <img src={imagenPerfil} alt="" className=' hidden lg:flex md:w-56 md:rounded-full' />
       </header>
 
     </section>
